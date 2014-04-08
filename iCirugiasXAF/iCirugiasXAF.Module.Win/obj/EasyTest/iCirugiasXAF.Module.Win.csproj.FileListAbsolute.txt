@@ -1,0 +1,9 @@
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\bin\EasyTest\iCirugiasXAF.Module.Win.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\bin\EasyTest\iCirugiasXAF.Module.Win.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\bin\EasyTest\iCirugiasXAF.Module.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\bin\EasyTest\iCirugiasXAF.Module.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\obj\EasyTest\iCirugiasXAF.Module.Win.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\obj\EasyTest\iCirugiasXAF.Module.Win.iCirugiasXAFWindowsFormsModule.resources
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\obj\EasyTest\iCirugiasXAF.Module.Win.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\obj\EasyTest\iCirugiasXAF.Module.Win.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module.Win\obj\EasyTest\iCirugiasXAF.Module.Win.pdb

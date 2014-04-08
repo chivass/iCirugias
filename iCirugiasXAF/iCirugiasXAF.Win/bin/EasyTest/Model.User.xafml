@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="13.2.8.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="13.2.8.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.MainForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" IsNewNode="True" />
+      </FormStates>
+    </Template>
+  </Templates>
+</Application>

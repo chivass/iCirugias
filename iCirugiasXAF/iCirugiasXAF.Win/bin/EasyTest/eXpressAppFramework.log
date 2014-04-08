@@ -1,0 +1,144 @@
+07.04.14 21:03:39.441	================================================================================
+07.04.14 21:03:39.444	Trace Log for iCirugiasXAF.Win.vshost.exe is started
+07.04.14 21:03:39.448	================================================================================
+07.04.14 21:03:39.454	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 4.0.30319.18449
+	eXpressApp Version: 13.2.8.0
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+07.04.14 21:03:39.458	>>EasyTestRemotingRegistration Register
+07.04.14 21:03:39.497	CreateServerChanel port: 4100
+07.04.14 21:03:39.545	<<EasyTestRemotingRegistration Register
+07.04.14 21:03:39.553	Initialization ignored.
+07.04.14 21:03:39.556	Initialize application
+07.04.14 21:03:39.557	=======================
+07.04.14 21:03:39.559		Command line arguments: 
+		C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\EasyTest\iCirugiasXAF.Win.vshost.exe
+07.04.14 21:03:39.602	--------------------------------------------------------------------------------
+07.04.14 21:03:39.603	Initialize Modules Manager
+07.04.14 21:03:39.605	--------------------------------------------------------------------------------
+07.04.14 21:03:39.607	
+07.04.14 21:03:39.928	--------------------------------------------------------------------------------
+Loaded assemblies
+	DevExpress.BonusSkins.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.BonusSkins.v13.2.dll
+	DevExpress.Data.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.Data.v13.2.dll
+	DevExpress.ExpressApp.Images.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v13.2.dll
+	DevExpress.ExpressApp.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.ExpressApp.v13.2.dll
+	DevExpress.ExpressApp.v13.2.resources, Version=13.2.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v13.2.resources\v4.0_13.2.0.0_es_b88d1754d700e49a\DevExpress.ExpressApp.v13.2.resources.dll
+	DevExpress.ExpressApp.Win.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v13.2.dll
+	DevExpress.ExpressApp.Xpo.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v13.2.dll
+	DevExpress.Office.v13.2.Core, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v13.2.Core\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.Office.v13.2.Core.dll
+	DevExpress.Persistent.Base.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.Persistent.Base.v13.2.dll
+	DevExpress.Persistent.BaseImpl.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v13.2.dll
+	DevExpress.Printing.v13.2.Core, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v13.2.Core\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.Printing.v13.2.Core.dll
+	DevExpress.RichEdit.v13.2.Core, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v13.2.Core\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.RichEdit.v13.2.Core.dll
+	DevExpress.Utils.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.Utils.v13.2.dll
+	DevExpress.Xpo.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.Xpo.v13.2.dll
+	DevExpress.XtraBars.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraBars.v13.2.dll
+	DevExpress.XtraEditors.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraEditors.v13.2.dll
+	DevExpress.XtraGrid.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraGrid.v13.2.dll
+	DevExpress.XtraLayout.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraLayout.v13.2.dll
+	DevExpress.XtraNavBar.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraNavBar.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraNavBar.v13.2.dll
+	DevExpress.XtraPrinting.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraPrinting.v13.2.dll
+	DevExpress.XtraRichEdit.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v13.2.dll
+	DevExpress.XtraTreeList.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraTreeList.v13.2.dll
+	DevExpress.XtraVerticalGrid.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v13.2\v4.0_13.2.8.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v13.2.dll
+	iCirugiasXAF.Module, Version=1.0.5210.37908, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\EasyTest\iCirugiasXAF.Module.dll
+	iCirugiasXAF.Module.Win, Version=1.0.5210.37908, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\EasyTest\iCirugiasXAF.Module.Win.dll
+	iCirugiasXAF.Win, Version=1.0.5210.37909, Culture=neutral, PublicKeyToken=null, Location=C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\EasyTest\iCirugiasXAF.Win.exe
+	Microsoft.VisualStudio.Debugger.Runtime, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\11.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\11.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\11.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=es, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	vshost32, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\EasyTest\iCirugiasXAF.Win.vshost.exe
+07.04.14 21:03:40.046	SetupModules
+07.04.14 21:03:40.059	Customize TypesInfo
+07.04.14 21:03:40.063	The ValueManagerType is initialized by the default value: SimpleValueManager.
+07.04.14 21:03:40.070	Stack trace:
+   en DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   en DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   en DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   en DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   en DevExpress.ExpressApp.XafApplication.Setup()
+   en iCirugiasXAF.Win.Program.Main() en c:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\Program.cs:línea 41
+   en System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   en System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   en Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   en System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   en System.Threading.ThreadHelper.ThreadStart()
+
+07.04.14 21:03:41.564	--------------------------------------------------------------------------------
+07.04.14 21:03:41.566	Start logon process
+07.04.14 21:03:41.569	--------------------------------------------------------------------------------
+07.04.14 21:03:41.571	Checking Compatibility
+07.04.14 21:03:41.573		ConnectionString: Data Source=(LOCAL);Initial Catalog=iCirugias;Integrated Security=True;
+07.04.14 21:03:43.520	--------------------------------------------------------------------------------
+07.04.14 21:03:43.522	UpdateDB
+07.04.14 21:03:43.534		ConnectionString: Data Source=(LOCAL);Initial Catalog=iCirugias;Integrated Security=True;
+07.04.14 21:03:43.727	Check App Name Compatibility
+07.04.14 21:03:44.877	Check stored module versions against the versions of the loaded modules
+07.04.14 21:03:44.877	module 'SystemModule' (DevExpress.ExpressApp.v13.2). Local version: 13.2.8.0, Version on DB: 0.0.0.0
+07.04.14 21:03:44.877	DatabaseIsOld
+07.04.14 21:03:45.138	Module: SystemModule. Old version: 0.0.0.0. New version: 13.2.8.0
+07.04.14 21:03:45.140	Module: SystemWindowsFormsModule. Old version: 0.0.0.0. New version: 13.2.8.0
+07.04.14 21:03:45.142	Module: iCirugiasXAFModule. Old version: 0.0.0.0. New version: 1.0.5210.37908
+07.04.14 21:03:45.145	Module: iCirugiasXAFWindowsFormsModule. Old version: 0.0.0.0. New version: 1.0.5210.37908
+07.04.14 21:03:45.176	Check App Name Compatibility
+07.04.14 21:03:45.178	Check stored module versions against the versions of the loaded modules
+07.04.14 21:03:45.179	module 'SystemModule' (DevExpress.ExpressApp.v13.2). Local version: 13.2.8.0, Version on DB: 13.2.8.0
+07.04.14 21:03:45.181	module 'SystemWindowsFormsModule' (DevExpress.ExpressApp.Win.v13.2). Local version: 13.2.8.0, Version on DB: 13.2.8.0
+07.04.14 21:03:45.183	module 'iCirugiasXAFModule' (iCirugiasXAF.Module). Local version: 1.0.5210.37908, Version on DB: 1.0.5210.37908
+07.04.14 21:03:45.185	module 'iCirugiasXAFWindowsFormsModule' (iCirugiasXAF.Module.Win). Local version: 1.0.5210.37908, Version on DB: 1.0.5210.37908
+07.04.14 21:03:45.187	--------------------------------------------------------------------------------
+07.04.14 21:03:45.190	Logon successful
+07.04.14 21:03:45.195	--------------------------------------------------------------------------------
+07.04.14 21:03:45.197	Logon completed
+07.04.14 21:03:45.199		startUpActions: 0
+07.04.14 21:03:45.218	--------------------------------------------------------------------------------
+07.04.14 21:03:45.218	Initialize 'ShowNavigationItem' action items
+07.04.14 21:03:45.248	--------------------------------------------------------------------------------
+07.04.14 21:03:45.250	Execute action
+07.04.14 21:03:45.252		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+07.04.14 21:03:45.254		ID: ChooseSkin
+07.04.14 21:03:45.256		Category: Appearance
+07.04.14 21:03:45.258		SelectedItem: DevExpress Style
+07.04.14 21:03:45.260	Action 'ChooseSkin' done
+07.04.14 21:03:45.416	Generate default Model for Action containers
+07.04.14 21:03:47.700	--------------------------------------------------------------------------------
+07.04.14 21:03:47.702	Execute action
+07.04.14 21:03:47.704		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+07.04.14 21:03:47.706		ID: ShowNavigationItem
+07.04.14 21:03:47.709		Category: ViewsNavigation
+07.04.14 21:03:47.710		SelectedItem: Afanadora
+07.04.14 21:03:48.004	Action 'ShowNavigationItem' done
+07.04.14 21:03:48.129	Application startup done
+07.04.14 21:03:48.131	=========================
+07.04.14 21:03:48.133	Application running
+07.04.14 21:03:48.135	====================
+07.04.14 21:03:48.676	Save model changes
+07.04.14 21:03:48.678	===================
+07.04.14 21:03:48.698	Save model changes
+07.04.14 21:03:48.706	===================
+07.04.14 21:03:48.717	--------------------------------------------------------------------------------
+07.04.14 21:03:48.722	Logoff completed
+07.04.14 21:03:48.725	Application stopping
+07.04.14 21:03:48.728	=====================

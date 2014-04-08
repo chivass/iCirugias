@@ -1,0 +1,7 @@
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\bin\Debug\iCirugiasXAF.Module.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\bin\Debug\iCirugiasXAF.Module.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\Debug\iCirugiasXAF.Module.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\Debug\iCirugiasXAF.Module.iCirugiasXAFModule.resources
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\Debug\iCirugiasXAF.Module.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\Debug\iCirugiasXAF.Module.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\Debug\iCirugiasXAF.Module.pdb

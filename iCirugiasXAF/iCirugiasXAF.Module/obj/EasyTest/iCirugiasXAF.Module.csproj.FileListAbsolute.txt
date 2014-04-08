@@ -1,0 +1,6 @@
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\bin\EasyTest\iCirugiasXAF.Module.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\bin\EasyTest\iCirugiasXAF.Module.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.iCirugiasXAFModule.resources
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.pdb

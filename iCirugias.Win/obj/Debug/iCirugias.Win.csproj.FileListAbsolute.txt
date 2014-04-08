@@ -1,1 +1,10 @@
 C:\Users\Carlos\Documents\Visual Studio 2012\Projects\iCirugias\iCirugias.Win\bin\Debug\iCirugias.Win.exe.config
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\bin\Debug\iCirugias.Win.exe.config
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\bin\Debug\iCirugias.Win.exe
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\bin\Debug\iCirugias.Win.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\obj\Debug\iCirugias.Win.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\obj\Debug\iCirugias.Win.Form1.resources
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\obj\Debug\iCirugias.Win.Properties.Resources.resources
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\obj\Debug\iCirugias.Win.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\obj\Debug\iCirugias.Win.exe
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Win\obj\Debug\iCirugias.Win.pdb

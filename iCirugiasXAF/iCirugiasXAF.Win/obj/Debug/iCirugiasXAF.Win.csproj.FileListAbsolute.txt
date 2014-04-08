@@ -1,0 +1,15 @@
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\iCirugiasXAF.Win.exe.config
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\Model.xafml
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\iCirugiasXAF.Win.exe
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\iCirugiasXAF.Win.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\iCirugiasXAF.Module.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\iCirugiasXAF.Module.Win.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\iCirugiasXAF.Module.Win.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\bin\Debug\iCirugiasXAF.Module.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\obj\Debug\iCirugiasXAF.Win.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\obj\Debug\iCirugiasXAF.Win.Properties.Resources.resources
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\obj\Debug\iCirugiasXAF.Win.iCirugiasXAFWindowsFormsApplication.resources
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\obj\Debug\iCirugiasXAF.Win.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\obj\Debug\iCirugiasXAF.Win.exe.licenses
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\obj\Debug\iCirugiasXAF.Win.exe
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Win\obj\Debug\iCirugiasXAF.Win.pdb
