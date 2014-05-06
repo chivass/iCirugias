@@ -1,0 +1,7 @@
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Ayuda\bin\Debug\iCirugias.Ayuda.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Ayuda\bin\Debug\iCirugias.Ayuda.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Ayuda\bin\Debug\iCirugias.Data.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Ayuda\bin\Debug\iCirugias.Data.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Ayuda\obj\Debug\iCirugias.Ayuda.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Ayuda\obj\Debug\iCirugias.Ayuda.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Ayuda\obj\Debug\iCirugias.Ayuda.pdb

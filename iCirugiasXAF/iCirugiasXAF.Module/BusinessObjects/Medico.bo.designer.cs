@@ -17,7 +17,7 @@ using DevExpress.Xpo;
 namespace iCirugiasXAF.Module.BusinessObjects
 {
   [DefaultClassOptions]
-  public partial class Medico : DevExpress.Persistent.BaseImpl.BaseObject
+  public partial class Medico : XPObject
   {
     private System.String _correo;
     private System.Int32 _cedula;

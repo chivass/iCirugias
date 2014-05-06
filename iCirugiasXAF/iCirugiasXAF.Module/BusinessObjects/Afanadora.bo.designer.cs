@@ -17,7 +17,7 @@ using DevExpress.Xpo;
 namespace iCirugiasXAF.Module.BusinessObjects
 {
   [DefaultClassOptions]
-  public partial class Afanadora : DevExpress.Persistent.BaseImpl.BaseObject
+  public partial class Afanadora : XPObject
   {
     private System.DateTime _fechaNacimiento;
     private System.Int32 _telefono;

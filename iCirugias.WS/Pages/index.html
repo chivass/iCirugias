@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Programacion de cirugias</title>
+ <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.0.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div data-role="page" id="paghome">
+
+  <div data-role="header">
+    
+    <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
+		<h1 class="hpage">== Nombre de usuario ==</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+		<li><a href="#capturas" data-icon="bars" data-iconpos="notext">Captura</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+      </ul>
+    </div>
+  </div>
+
+     
+
+
+  <div data-role="content">
+    <img id="Logo" src="images/LOGO.jpg"/>
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+<div data-role="panel" id="capturas"  data-theme="b" data-display="overlay">
+<ul data-role="listview" data-theme="b" class="nav-search">
+  <h1>Capturas</h1>  
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+    <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#enfermeria">Enfermeria</a></li> 
+   <li><a href="#medicos">Medicos</a></li>  
+   <li><a href="#quirofano">Quirofano</a></li>    
+    <li><a href="#usuario">Usuario</a></li>
+       </ul>
+</div>
+
+</div>  
+    
+   <div data-role="page" id="afanadora">
+ <div data-role="header">
+    
+    <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
+		<h1 class="hpage">Usuario</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+		<li><a href="#capturas2" data-icon="bars" data-iconpos="notext">Captura</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+      <p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Afanadoras<a href="#DetallesAfanadora" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+        <ul data-role="listview" id="ListaAfanadoras" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de Afanadora...">
+	      </ul>
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+       <div data-role="panel" id="capturas2"  data-theme="b" data-display="overlay">
+<ul data-role="listview" data-theme="b" class="nav-search">
+  <h1>Capturas</h1>  
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+    <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#enfermeria">Enfermeria</a></li> 
+   <li><a href="#medicos">Medicos</a></li>  
+   <li><a href="#quirofano">Quirofano</a></li>    
+    <li><a href="#usuario">Usuario</a></li>
+       </ul>
+</div>
+</div> 
+
+
+
+
+    <div data-role="page" id="DetallesAfanadora">
+  <div data-role="header">
+		<h1 class="hpage">Usuario</h1>
+  </div>
+  <div data-role="content">
+<p id="errorafanadora"></p>
+	    <label for="txtNombreAfanadora">Nombre</label>
+       <input type="text" id="txtNombreAfanadora" name="nombre" placeholder="Capture el nombre">
+      
+      <label for="txtTelefonoAfanadora">Telefono</label>
+       <input type="text" id="txtTelefonoAfanadora" name="telefono" placeholder="Capture el telefono">
+     
+       <label for="txtFechaNacimientoAfanadora">Fecha de nacimiento</label>
+       <input type="date" id="txtFechaNacimientoAfanadora" name="fechanacimiento" placeholder="Capture fecha de nacimiento">
+
+      <label for="txtCorreoAfanadora">Correo</label>
+       <input type="text" id="txtCorreoAfanadora" name="correoafanadora" placeholder="Capture correo">
+
+        <a href="#afanadora" id="btnGrabarAfanadora" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Grabar</a>
+	  
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+</div>   
+
+    <div data-role="page" id="enfermeria">
+ <div data-role="header">
+    
+    <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
+		<h1 class="hpage">Usuario</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+		<li><a href="#capturas3" data-icon="bars" data-iconpos="notext">Captura</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Enfermeria<a href="#DetallesEnfermeria" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+        <ul data-role="listview" id="ListaEnfermeria" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de enfermeria...">
+	      </ul>
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+        <div data-role="panel" id="capturas3"  data-theme="b" data-display="overlay">
+<ul data-role="listview" data-theme="b" class="nav-search">
+  <h1>Capturas</h1>  
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+    <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#enfermeria">Enfermeria</a></li> 
+   <li><a href="#medicos">Medicos</a></li>  
+   <li><a href="#quirofano">Quirofano</a></li>    
+    <li><a href="#usuario">Usuario</a></li>
+       </ul>
+
+</div>
+</div>  
+    <div data-role="page" id="medicos">
+  <div data-role="header">
+    
+    <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
+		<h1 class="hpage">Usuario</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+		<li><a href="#capturas4" data-icon="bars" data-iconpos="notext">Captura</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Medicos<a href="#DetallesMedicos" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+        <ul data-role="listview" id="ListaMedicos" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de medicos...">
+	      </ul>
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+             <div data-role="panel" id="capturas4"  data-theme="b" data-display="overlay">
+<ul data-role="listview" data-theme="b" class="nav-search">
+  <h1>Capturas</h1>  
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+    <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#enfermeria">Enfermeria</a></li> 
+   <li><a href="#medicos">Medicos</a></li>  
+   <li><a href="#quirofano">Quirofano</a></li>    
+    <li><a href="#usuario">Usuario</a></li>
+       </ul>
+
+</div>
+</div>  
+    <div data-role="page" id="quirofano">
+  <div data-role="header">
+    
+    <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
+		<h1 class="hpage">Usuario</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+		<li><a href="#capturas5" data-icon="bars" data-iconpos="notext">Captura</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Quirofanos<a href="#DetallesQuirofano" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+        <ul data-role="listview" id="ListaQuirofano" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de quirofano...">
+	      </ul>
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+          <div data-role="panel" id="capturas5"  data-theme="b" data-display="overlay">
+<ul data-role="listview" data-theme="b" class="nav-search">
+  <h1>Capturas</h1>  
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+    <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#enfermeria">Enfermeria</a></li> 
+   <li><a href="#medicos">Medicos</a></li>  
+   <li><a href="#quirofano">Quirofano</a></li>    
+    <li><a href="#usuario">Usuario</a></li>
+       </ul>
+
+</div>
+</div> 
+    
+    
+    
+     
+    <div data-role="page" id="usuario">
+  <div data-role="header">
+    
+    <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
+		<h1 class="hpage">Usuario</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+		<li><a href="#capturas6" data-icon="bars" data-iconpos="notext">Captura</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Enfermeria<a href="#DetallesEnfermeria" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+        <ul data-role="listview" id="Ul3" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de enfermeria...">
+	      </ul>
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+        
+             <div data-role="panel" id="capturas6"  data-theme="b" data-display="overlay">
+<ul data-role="listview" data-theme="b" class="nav-search">
+  <h1>Capturas</h1>  
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+    <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#enfermeria">Enfermeria</a></li> 
+   <li><a href="#medicos">Medicos</a></li>  
+   <li><a href="#quirofano">Quirofano</a></li>    
+    <li><a href="#usuario">Usuario</a></li>
+       </ul>
+
+</div>
+</div>  
+
+
+
+
+
+
+</body>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.router.js"></script>
+<script src="js/jquery.mobile-1.4.0.min.js"></script>
+
+       <script type="text/javascript" src="js/index.js"></script>
+   <script type="text/javascript" src="js/cordova-2.1.0.js"></script>
+</html>

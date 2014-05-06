@@ -1,0 +1,5 @@
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Data\bin\Debug\iCirugias.Data.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Data\bin\Debug\iCirugias.Data.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Data\obj\Debug\iCirugias.Data.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Data\obj\Debug\iCirugias.Data.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.Data\obj\Debug\iCirugias.Data.csprojResolveAssemblyReference.cache

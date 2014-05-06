@@ -4,3 +4,4 @@ C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\
 C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.csproj.GenerateResource.Cache
 C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.dll
 C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugiasXAF\iCirugiasXAF.Module\obj\EasyTest\iCirugiasXAF.Module.csprojResolveAssemblyReference.cache

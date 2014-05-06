@@ -17,7 +17,7 @@ using DevExpress.Xpo;
 namespace iCirugiasXAF.Module.BusinessObjects
 {
   [DefaultClassOptions]
-  public partial class Cirugia : DevExpress.Persistent.BaseImpl.BaseObject
+  public partial class Cirugia : XPObject
   {
     private System.String _especialidad;
     private System.String _nombre;

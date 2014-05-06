@@ -17,7 +17,7 @@ using DevExpress.Xpo;
 namespace iCirugiasXAF.Module.BusinessObjects
 {
   [DefaultClassOptions]
-  public partial class Enfermeria : DevExpress.Persistent.BaseImpl.BaseObject
+  public partial class Enfermeria : XPObject
   {
     private System.Int32 _telefono;
     private System.DateTime _fechaNacimiento;

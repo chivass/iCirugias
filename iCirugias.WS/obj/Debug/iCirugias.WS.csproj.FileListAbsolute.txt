@@ -1,0 +1,9 @@
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\obj\Debug\iCirugias.WS.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\bin\iCirugias.WS.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\bin\iCirugias.WS.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\bin\iCirugias.Ayuda.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\bin\iCirugias.Data.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\bin\iCirugias.Ayuda.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\bin\iCirugias.Data.pdb
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\obj\Debug\iCirugias.WS.dll
+C:\Users\Carlos\Documents\GitHub\iCirugias\iCirugias.WS\obj\Debug\iCirugias.WS.pdb

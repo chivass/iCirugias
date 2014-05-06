@@ -107,6 +107,12 @@
     <Compile Include="BusinessObjects\Medico.bo.designer.cs">
       <DependentUpon>Medico.bo</DependentUpon>
     </Compile>
+    <Compile Include="BusinessObjects\Programacion.bo.cs">
+      <DependentUpon>Programacion.bo</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\Programacion.bo.designer.cs">
+      <DependentUpon>Programacion.bo</DependentUpon>
+    </Compile>
     <Compile Include="BusinessObjects\Quirofano.bo.cs">
       <DependentUpon>Quirofano.bo</DependentUpon>
     </Compile>
@@ -135,6 +141,7 @@
     <EmbeddedResource Include="BusinessObjects\Cirugia.bo" />
     <EmbeddedResource Include="BusinessObjects\Quirofano.bo" />
     <EmbeddedResource Include="BusinessObjects\Afanadora.bo" />
+    <EmbeddedResource Include="BusinessObjects\Programacion.bo" />
     <None Include="DatabaseUpdate\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>

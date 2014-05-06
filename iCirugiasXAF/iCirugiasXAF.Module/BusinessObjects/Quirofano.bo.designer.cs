@@ -17,7 +17,7 @@ using DevExpress.Xpo;
 namespace iCirugiasXAF.Module.BusinessObjects
 {
   [DefaultClassOptions]
-  public partial class Quirofano : DevExpress.Persistent.BaseImpl.BaseObject
+  public partial class Quirofano : XPObject
   {
     private System.String _nombre;
     public Quirofano(DevExpress.Xpo.Session session)
