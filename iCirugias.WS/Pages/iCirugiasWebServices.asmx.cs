@@ -139,6 +139,52 @@ namespace iCirugias.WS.Pages
 
             return Resultado;
         }
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string ObtenerCirugias()
+        {
+
+            string Resultado = iCirugias.Ayuda.Utilerias.ObtenerCirugias();
+
+            return Resultado;
+        }
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string ObtenerCirugia(int OidCirugia)
+        {
+
+            string Resultado = iCirugias.Ayuda.Utilerias.ObtenerCirugia(OidCirugia);
+
+            return Resultado;
+        }
+
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string ObtenerEnfermero(int OidEnfermeria)
+        {
+
+            string Resultado = iCirugias.Ayuda.Utilerias.ObtenerEnfermero(OidEnfermeria);
+
+            return Resultado;
+        }
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string ObtenerMedico(int OidMedico)
+        {
+
+            string Resultado = iCirugias.Ayuda.Utilerias.ObtenerMedico(OidMedico);
+
+            return Resultado;
+        }
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public string ObtenerQuirofano(int OidQuirofano)
+        {
+
+            string Resultado = iCirugias.Ayuda.Utilerias.ObtenerQuirofano(OidQuirofano);
+
+            return Resultado;
+        }
 
         #endregion
 
@@ -152,6 +198,35 @@ namespace iCirugias.WS.Pages
              iCirugias.Ayuda.Utilerias.ModificarAfanadora(OidAfanadora,Nombre,Telefono,FechaNacimiento,Correo);
 
             
+        }
+
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public void ModificarCirugia(int OidACirugia, string Nombre, int Especialidad)
+        {
+
+            iCirugias.Ayuda.Utilerias.ModificarCirugia(OidACirugia, Nombre, Especialidad);
+
+
+        }
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public void ModificarEnfermeria(int OidEnfermeria, string Nombre, DateTime FechaNacimiento, int Telefono, string Especialidad, string Correo)
+        {
+
+            iCirugias.Ayuda.Utilerias.ModificarEnfermeria(OidEnfermeria, Nombre, FechaNacimiento, Telefono, Especialidad, Correo);
+
+
+        }
+
+        [WebMethod(EnableSession = true)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        public void ModificarMedico(int OidMedico, string Nombre, DateTime FechaNacimiento, int Telefono, string Especialidad, string Cedula, string Correo)
+        {
+
+            iCirugias.Ayuda.Utilerias.ModificarMedico(OidMedico,Nombre,FechaNacimiento,Telefono,Cedula,Especialidad,Correo);
+
+
         }
         #endregion
     }

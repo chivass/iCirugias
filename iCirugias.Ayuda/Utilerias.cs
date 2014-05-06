@@ -181,13 +181,32 @@ namespace iCirugias.Ayuda
         {
             return ObtenerLista(typeof(Quirofano));
         }
+        public static string ObtenerCirugias()
+        {
+            return ObtenerLista(typeof(Cirugia));
+        }
+
 
         public static string ObtenerAfanadora(int OidAfanadora)
         {
             return ObetenerObjeto(OidAfanadora, typeof(Afanadora));
         }
-
-
+        public static string ObtenerCirugia(int OidCirugia)
+        {
+            return ObetenerObjeto(OidCirugia, typeof(Cirugia));
+        }
+        public static string ObtenerEnfermero(int OidEnfermeria)
+        {
+            return ObetenerObjeto(OidEnfermeria, typeof(Enfermeria));
+        }
+        public static string ObtenerMedico(int OidMedico)
+        {
+            return ObetenerObjeto(OidMedico, typeof(Medico));
+        }
+        public static string ObtenerQuirofano(int OidQuirofano)
+        {
+            return ObetenerObjeto(OidQuirofano, typeof(Quirofano));
+        }
 
         public static void ModificarAfanadora(int OidAfanadora, string Nombre, int Telefono, DateTime FechaNacimiento, string Correo)
         {
@@ -199,11 +218,58 @@ namespace iCirugias.Ayuda
 
             ActualizarObjeto(OidAfanadora, typeof(Afanadora), CamposActualizar);
         }
+        public static void ModificarCirugia(int OidACirugia, string Nombre, int Especialidad)
+        {
+            List<Campos> CamposActualizar = new List<Campos>();
+            CamposActualizar.Add(new Campos() { Campo = "Nombre", Valor = Nombre });
+            CamposActualizar.Add(new Campos() { Campo = "Especialidad", Valor = Especialidad });
+
+
+            ActualizarObjeto(OidACirugia, typeof(Cirugia), CamposActualizar);
+        }
+        public static void ModificarEnfermeria(int OidEnfermeria, string Nombre, DateTime FechaNacimiento, int Telefono, string Especialidad, string Correo)
+        {
+            List<Campos> CamposActualizar = new List<Campos>();
+            CamposActualizar.Add(new Campos() { Campo = "Nombre", Valor = Nombre });
+            CamposActualizar.Add(new Campos() { Campo = "FechaNacimiento", Valor = FechaNacimiento });
+            CamposActualizar.Add(new Campos() { Campo = "Telefono", Valor = Telefono });
+            CamposActualizar.Add(new Campos() { Campo = "Especialidad", Valor = Especialidad });
+            CamposActualizar.Add(new Campos() { Campo = "Correo", Valor = Correo });
+
+            ActualizarObjeto(OidEnfermeria, typeof(Enfermeria), CamposActualizar);
+           
+        }
+        public static void ModificarMedico(int OidMedico, string Nombre, DateTime FechaNacimiento, int Telefono, string Cedula, string Especialidad, string Correo)
+        {
+            List<Campos> CamposActualizar = new List<Campos>();
+            CamposActualizar.Add(new Campos() { Campo = "Nombre", Valor = Nombre });
+            CamposActualizar.Add(new Campos() { Campo = "FechaNacimiento", Valor = FechaNacimiento });
+            CamposActualizar.Add(new Campos() { Campo = "Telefono", Valor = Telefono });
+            CamposActualizar.Add(new Campos() { Campo = "Especialidad", Valor = Especialidad });
+            CamposActualizar.Add(new Campos() { Campo = "Correo", Valor = Correo });
+            CamposActualizar.Add(new Campos() { Campo = "Cedula", Valor = Cedula });
+
+            ActualizarObjeto(OidMedico, typeof(Medico), CamposActualizar);
+        }
 
 
 
 
 
-       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     }
 }

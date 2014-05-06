@@ -24,12 +24,31 @@ var WS = {
     ModificarAfanadora: 'ModificarAfanadora',
     ObtenerEnfermeria: 'ObtenerEnfermeria',
     ObtenerMedicos: 'ObtenerMedicos',
-    ObtenerQuirofanos:'ObtenerQuirofanos',
+    ObtenerQuirofanos: 'ObtenerQuirofanos',
+    ObtenerCirugias: 'ObtenerCirugias',
+    ObtenerCirugia: 'ObtenerCirugia',
+    InsertarCirugia: 'InsertarCirugia',
+    ModificarCirugia: 'ModificarCirugia',
+    ObtenerEnfermero: 'ObtenerEnfermero',
+    InsertarEnfermeria: 'InsertarEnfermeria',
+    ModificarEnfermeria: 'ModificarEnfermeria',
+    InsertarMedico:'InsertarMedico',
+    ObtenerMedico: 'ObtenerMedico',
+    ModificarMedico:'ModificarMedico',
 };
 var ObjetAfanadora = {
 Oid:0
 };
 var ObjetEnfermeria = {
+    Oid: 0
+};
+var ObjetCirugia = {
+    Oid: 0
+};
+var ObjetEnfermeria = {
+    Oid: 0
+};
+var ObjetMedico = {
     Oid: 0
 };
 
@@ -70,6 +89,7 @@ function ObtenerDatosWS(params, WS,funcion) {
 function InsertarDatosWs(params, WS) {
     $.ajax({
         type: 'POST',
+        asyn:true,
         crossDomain: true,
         url: wsAddress + WS,
         data: JSON.stringify(params),
@@ -86,7 +106,7 @@ function ObtenerDatosWSsinParametros(WS, funcion) {
     $.ajax({
         type: 'POST',
         crossDomain: true,
-        asyn:false,
+       
         url: wsAddress + WS,
         data: '{}',
         contentType: 'application/json; charset=utf-8',
@@ -209,9 +229,78 @@ $('#enfermeria').bind('pagebeforeshow',
 function CargarEnfermeria(Lista) {
     $('#ListaEnfermeria').empty();
     $.each(Lista, function (i, item) {
-        $('#ListaEnfermeria').append('<li><a  href="javascript:DetallesEnfermeria(' + Lista[i].OID + ');" data-rel="dialog">' + Lista[i].Nombre + '</a></li>').listview('refresh');
+        $('#ListaEnfermeria').append('<li><a  href="javascript:AbrirDetallesEnfermeria(' + Lista[i].OID + ');" data-rel="dialog">' + Lista[i].Nombre + '</a></li>').listview('refresh');
     });
 }
+
+//pagina detallesenfermeria
+$('#DetallesEnfermeria').bind('pagebeforeshow',
+            function () {
+
+                if (ObjetEnfermeria.Oid < 0) {
+                    $('#txtNombreEnfermeria').val("");
+                    $('#txtFechaNacimientoEnfermeria').val("");
+                    $('#txtTelefonoEnfermeria').val("");
+                    $('#txtEspecialidadEnfermeria').val("");
+                    $('#txtCorreoEnfermeria').val("");
+                }
+                else {
+                    var prams = { OidEnfermeria: ObjetEnfermeria.Oid };
+                    ObtenerDatosWS(prams, WS.ObtenerEnfermero, "CargaEnfermero");
+                }
+
+            });
+
+function CargaEnfermero(Objeto) {
+   
+    $('#txtEspecialidadCirugia').val(Objeto[0].Especialidad);
+    $('#txtNombreEnfermeria').val(Objeto[0].Nombre);
+    $('#txtFechaNacimientoEnfermeria').val(ConvertirFecha(Objeto[0].FechaNacimiento));
+    $('#txtTelefonoEnfermeria').val(Objeto[0].Telefono);
+    $('#txtEspecialidadEnfermeria').val(Objeto[0].Especialidad);
+    $('#txtCorreoEnfermeria').val(Objeto[0].Correo);
+}
+function AbrirDetallesEnfermeria(OID) {
+    ObjetEnfermeria.Oid = OID;
+    $.mobile.changePage("#DetallesEnfermeria", { transition: 'pop', role: 'dialog' });
+
+}
+$("#btnGrabaraEnfermeria").click(function (event) {
+
+    if (ObjetEnfermeria.Oid < 0) {
+        var params = {
+
+            
+           Nombre : $('#txtNombreEnfermeria').val(),
+            FechaNacimiento: $('#txtFechaNacimientoEnfermeria').val(),
+            Telefono:   $('#txtTelefonoEnfermeria').val(),
+            Especialidad: $('#txtEspecialidadEnfermeria').val(),
+            Correo: $('#txtCorreoEnfermeria').val(),
+
+
+        };
+
+        InsertarDatosWs(params, WS.InsertarEnfermeria);
+
+    }
+    else {
+
+        var params = {
+            OidEnfermeria: ObjetEnfermeria.Oid,
+            Nombre: $('#txtNombreEnfermeria').val(),
+            FechaNacimiento: $('#txtFechaNacimientoEnfermeria').val(),
+            Telefono: $('#txtTelefonoEnfermeria').val(),
+            Especialidad: $('#txtEspecialidadEnfermeria').val(),
+            Correo: $('#txtCorreoEnfermeria').val(),
+
+
+        };
+
+        InsertarDatosWs(params, WS.ModificarEnfermeria);
+    }
+
+});
+
 
 
 
@@ -230,9 +319,93 @@ $('#medicos').bind('pagebeforeshow',
 function CargarMedicos(Lista) {
     $('#ListaMedicos').empty();
     $.each(Lista, function (i, item) {
-        $('#ListaMedicos').append('<li><a  href="javascript:DetallesMedicos(' + Lista[i].OID + ');" data-rel="dialog">' + Lista[i].Nombre + '</a></li>').listview('refresh');
+        $('#ListaMedicos').append('<li><a  href="javascript:AbrirDetallesMedico(' + Lista[i].OID + ');" data-rel="dialog">' + Lista[i].Nombre + '</a></li>').listview('refresh');
     });
 }
+
+//pagina detallesedico
+$('#DetallesMedico').bind('pagebeforeshow',
+            function () {
+
+                if (ObjetEnfermeria.Oid < 0) {
+                    $('#txtNombreMedico').val("");
+                    $('#txtFechaNacimientoMedico').val("");
+                    $('#txtTelefonoMedico').val("");
+                    $('#txtEspecialidadMedico').val("");
+                    $('#txtCedulaMedico').val("");
+                    $('#txtCorreoMedico').val("");
+                }
+                else {
+                    var prams = { OidMedico: ObjetMedico.Oid };
+                    ObtenerDatosWS(prams, WS.ObtenerMedico, "CargaMedico");
+                }
+
+            });
+
+function CargaMedico(Objeto) {
+
+    
+    $('#txtNombreMedico').val(Objeto[0].Nombre);
+    $('#txtFechaNacimientoMedico').val(ConvertirFecha(Objeto[0].FechaNacimiento));
+    $('#txtTelefonoMedico').val(Objeto[0].Telefono);
+    $('#txtEspecialidadMedico').val(Objeto[0].Especialidad);
+    $('#txtCorreoMedico').val(Objeto[0].Correo);
+    $('#txtCedulaMedico').val(Objeto[0].Cedula);
+}
+
+
+function AbrirDetallesMedico(OID) {
+    ObjetMedico.Oid = OID;
+    $.mobile.changePage("#DetallesMedico", { transition: 'pop', role: 'dialog' });
+
+}
+
+$("#btnGrabarMedico").click(function (event) {
+
+    if (ObjetMedico.Oid < 0) {
+        var params = {
+
+
+            Nombre: $('#txtNombreMedico').val(),
+            FechaNacimiento: $('#txtFechaNacimientoMedico').val(),
+            Telefono: $('#txtTelefonoMedico').val(),
+            Cedula: $('#txtCedulaMedico').val(),
+            Especialidad: $('#txtEspecialidadMedico').val(),
+            Correo: $('#txtCorreoMedico').val(),
+
+
+        };
+
+        InsertarDatosWs(params, WS.InsertarMedico);
+
+    }
+    else {
+
+        var params = {
+            OidMedico: ObjetMedico.Oid,
+            Nombre: $('#txtNombreMedico').val(),
+            FechaNacimiento: $('#txtFechaNacimientoMedico').val(),
+            Telefono: $('#txtTelefonoMedico').val(),
+            Especialidad: $('#txtEspecialidadMedico').val(),
+            Correo: $('#txtCorreoMedico').val(),
+
+
+        };
+
+        InsertarDatosWs(params, WS.ModificarMedico);
+    }
+
+});
+
+
+
+
+
+
+
+
+
+
 
 
 //pagina quirofanos
@@ -248,3 +421,73 @@ function CargarQuirofano(Lista) {
         $('#ListaQuirofano').append('<li><a  href="javascript:DetallesQuirofano(' + Lista[i].OID + ');" data-rel="dialog">' + Lista[i].Nombre + '</a></li>').listview('refresh');
     });
 }
+
+
+//pagina cirugias
+$('#cirugia').bind('pagebeforeshow',
+            function () {
+                ObtenerDatosWSsinParametros(WS.ObtenerCirugias, "CargarCirugias");
+                ObjetEnfermeria.Oid = 0;
+            });
+
+function CargarCirugias(Lista) {
+    $('#ListaCirugias').empty();
+    $.each(Lista, function (i, item) {
+        $('#ListaCirugias').append('<li><a  href="javascript:AbrirDetallesCirugia(' + Lista[i].OID + ');" data-rel="dialog">' + Lista[i].Nombre + '</a></li>').listview('refresh');
+    });
+}
+
+//pagina detallesacirugia
+$('#DetallesCirugia').bind('pagebeforeshow',
+            function () {
+
+                if (ObjetCirugia.Oid < 0) {
+                    $('#txtNombreCirugia').val("");
+                    $('#txtEspecialidadCirugia').val("");
+                }
+                else {
+                    var prams = {OidCirugia:ObjetCirugia.Oid};
+                    ObtenerDatosWS(prams, WS.ObtenerCirugia, "CargaCirugia");
+                }
+
+            });
+
+function CargaCirugia(Objeto) {
+    $('#txtNombreCirugia').val(Objeto[0].Nombre);
+    $('#txtEspecialidadCirugia').val(Objeto[0].Especialidad);
+}
+
+function AbrirDetallesCirugia(OID) {
+    ObjetCirugia.Oid = OID;
+    $.mobile.changePage("#DetallesCirugia", { transition: 'pop', role: 'dialog' });
+    
+}
+
+$("#btnGrabaCirugia").click(function (event) {
+
+    if (ObjetCirugia.Oid < 0) {
+        var params = {
+            
+            Nombre: $('#txtNombreCirugia').val(),
+            Especialidad: $('#txtEspecialidadCirugia').val(),
+      
+
+        };
+
+        InsertarDatosWs(params, WS.InsertarCirugia);
+
+    }
+    else {
+
+        var params = {
+            OidACirugia:ObjetCirugia.Oid,
+            Nombre: $('#txtNombreCirugia').val(),
+            Especialidad: $('#txtEspecialidadCirugia').val(),
+            
+
+        };
+
+        InsertarDatosWs(params, WS.ModificarCirugia);
+    }
+
+});

@@ -41,6 +41,7 @@
   <h1>Capturas</h1>  
             <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
     <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#cirugia">Cirugia</a></li> 
     <li><a href="#enfermeria">Enfermeria</a></li> 
    <li><a href="#medicos">Medicos</a></li>  
    <li><a href="#quirofano">Quirofano</a></li>    
@@ -79,6 +80,7 @@
   <h1>Capturas</h1>  
             <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
     <li><a href="#afanadora">Afanadora</a></li> 
+      <li><a href="#cirugia">Cirugia</a></li> 
     <li><a href="#enfermeria">Enfermeria</a></li> 
    <li><a href="#medicos">Medicos</a></li>  
    <li><a href="#quirofano">Quirofano</a></li>    
@@ -133,7 +135,7 @@
     </div>
   </div>
   <div data-role="content">
-<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Enfermeria<a href="#DetallesEnfermeria" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Enfermeria<a href="javascript:AbrirDetallesEnfermeria(-1);" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
         <ul data-role="listview" id="ListaEnfermeria" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de enfermeria...">
 	      </ul>
   </div>
@@ -146,6 +148,7 @@
   <h1>Capturas</h1>  
             <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
     <li><a href="#afanadora">Afanadora</a></li> 
+      <li><a href="#cirugia">Cirugia</a></li> 
     <li><a href="#enfermeria">Enfermeria</a></li> 
    <li><a href="#medicos">Medicos</a></li>  
    <li><a href="#quirofano">Quirofano</a></li>    
@@ -154,7 +157,47 @@
 
 </div>
 </div>  
-    <div data-role="page" id="medicos">
+  
+     <div data-role="page" id="DetallesEnfermeria">
+  <div data-role="header">
+		<h1 class="hpage">Usuario</h1>
+  </div>
+  <div data-role="content">
+<p id="P2"></p>
+	    <label for="txtNombreEnfermeria">Nombre</label>
+       <input type="text" id="txtNombreEnfermeria"  placeholder="Capture el nombre">
+      
+      <label for="txtFechaNacimientoEnfermeria">Fecha de nacimiento</label>
+       <input type="date" id="txtFechaNacimientoEnfermeria">
+
+     <label for="txtTelefonoEnfermeria">Telefono</label>
+       <input type="text" id="txtTelefonoEnfermeria"  placeholder="Capture el telefono">
+
+       <label for="txtEspecialidadEnfermeria">Especialidad</label>
+       <input type="text" id="txtEspecialidadEnfermeria"  placeholder="Capture el especialidad">
+
+      <label for="txtCorreoEnfermeria">Correo</label>
+       <input type="text" id="txtCorreoEnfermeria"  placeholder="Capture el correo">
+        <a href="#enfermeria" id="btnGrabaraEnfermeria" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Grabar</a>
+	  
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <div data-role="page" id="medicos">
   <div data-role="header">
     
     <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
@@ -170,7 +213,7 @@
     </div>
   </div>
   <div data-role="content">
-<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Medicos<a href="#DetallesMedicos" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+<p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Medicos<a href="javascript:AbrirDetallesMedico(-1);" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
         <ul data-role="listview" id="ListaMedicos" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de medicos...">
 	      </ul>
   </div>
@@ -183,6 +226,7 @@
   <h1>Capturas</h1>  
             <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
     <li><a href="#afanadora">Afanadora</a></li> 
+      <li><a href="#cirugia">Cirugia</a></li> 
     <li><a href="#enfermeria">Enfermeria</a></li> 
    <li><a href="#medicos">Medicos</a></li>  
    <li><a href="#quirofano">Quirofano</a></li>    
@@ -191,7 +235,44 @@
 
 </div>
 </div>  
-    <div data-role="page" id="quirofano">
+   
+    
+    <div data-role="page" id="DetallesMedico">
+  <div data-role="header">
+		<h1 class="hpage">Usuario</h1>
+  </div>
+  <div data-role="content">
+<p id="P3"></p>
+	    <label for="txtNombreMedico">Nombre</label>
+       <input type="text" id="txtNombreMedico"  placeholder="Capture el nombre">
+      
+      <label for="txtFechaNacimientoMedico">Fecha de nacimiento</label>
+       <input type="date" id="txtFechaNacimientoMedico">
+
+     <label for="txtTelefonoMedico">Telefono</label>
+       <input type="text" id="txtTelefonoMedico"  placeholder="Capture el telefono">
+
+       <label for="txtEspecialidadMedico">Especialidad</label>
+       <input type="text" id="txtEspecialidadMedico"  placeholder="Capture el especialidad">
+
+       <label for="txtCedulaMedico">Cedula</label>
+       <input type="text" id="txtCedulaMedico"  placeholder="Capture el cedula">
+
+      <label for="txtCorreoMedico">Correo</label>
+       <input type="text" id="txtCorreoMedico"  placeholder="Capture el correo">
+        <a href="#medicos" id="btnGrabarMedico" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Grabar</a>
+	  
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+</div>
+    
+    
+    
+    
+     <div data-role="page" id="quirofano">
   <div data-role="header">
     
     <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
@@ -219,7 +300,8 @@
 <ul data-role="listview" data-theme="b" class="nav-search">
   <h1>Capturas</h1>  
             <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
-    <li><a href="#afanadora">Afanadora</a></li> 
+    <li><a href="#afanadora">Afanadora</a></li>
+      <li><a href="#cirugia">Cirugia</a></li>  
     <li><a href="#enfermeria">Enfermeria</a></li> 
    <li><a href="#medicos">Medicos</a></li>  
    <li><a href="#quirofano">Quirofano</a></li>    
@@ -262,6 +344,7 @@
   <h1>Capturas</h1>  
             <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
     <li><a href="#afanadora">Afanadora</a></li> 
+      <li><a href="#cirugia">Cirugia</a></li> 
     <li><a href="#enfermeria">Enfermeria</a></li> 
    <li><a href="#medicos">Medicos</a></li>  
    <li><a href="#quirofano">Quirofano</a></li>    
@@ -271,9 +354,66 @@
 </div>
 </div>  
 
+     <div data-role="page" id="cirugia">
+ <div data-role="header">
+    
+    <a href="#paghome" data-role="button" data-icon="home"> <!--data-rel="dialog"-->Inicio</a>
+		<h1 class="hpage">Usuario</h1>
+    <a href="javascript:Salir();" data-role="button" data-icon="delete">Salir</a>
+  
+    <div data-role="navbar">
+      <ul>
+		<li><a href="#capturas7" data-icon="bars" data-iconpos="notext">Captura</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+        <li><a href="#xx" data-icon="grid" data-ajax="false">xx</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="content">
+      <p style="color:black; display: block;font-size: 1.5em; font-weight: bold;">Cirugias<a href="javascript:AbrirDetallesCirugia(-1);" data-rel="dialog" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Agregar</a></p>
+        <ul data-role="listview" id="ListaCirugias" data-inset="true" data-filter="true" data-filter-placeholder="Busqueda de cirugia...">
+	      </ul>
+  </div>
 
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+       <div data-role="panel" id="capturas7"  data-theme="b" data-display="overlay">
+<ul data-role="listview" data-theme="b" class="nav-search">
+  <h1>Capturas</h1>  
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+    <li><a href="#afanadora">Afanadora</a></li> 
+      <li><a href="#cirugia">Cirugia</a></li> 
+    <li><a href="#enfermeria">Enfermeria</a></li> 
+   <li><a href="#medicos">Medicos</a></li>  
+   <li><a href="#quirofano">Quirofano</a></li>    
+    <li><a href="#usuario">Usuario</a></li>
+       </ul>
+</div>
+</div> 
 
+    <div data-role="page" id="DetallesCirugia">
+  <div data-role="header">
+		<h1 class="hpage">Usuario</h1>
+  </div>
+  <div data-role="content">
+<p id="P1"></p>
+	    <label for="txtNombreCirugia">Nombre cirugia</label>
+       <input type="text" id="txtNombreCirugia" name="nombre" placeholder="Capture el nombre">
+      
+      <label for="txtEspecialidadCirugia">Especialidad</label>
+       <input type="text" id="txtEspecialidadCirugia" name="Especialidad" placeholder="Capture el especialidad">
+     
+      
 
+        <a href="#cirugia" id="btnGrabaCirugia" data-role="button" data-icon="plus" data-inline="true" style="float:right;">Grabar</a>
+	  
+  </div>
+
+  <div data-role="footer">
+    <h1></h1>
+  </div>
+</div>
 
 
 </body>
